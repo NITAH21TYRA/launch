@@ -20,5 +20,5 @@ COPY . .
 # Expose the port your app runs on (default is usually 5000 for Flask)
 EXPOSE 5000
 
-# Start the application using Gunicorn
+# Start the application using Gunicornnnnn
 CMD ["gunicorn", "--bind", "0.0.0.0:5000", "app:app"]
